@@ -1,0 +1,92 @@
+.clearfix:after, body header div#header-container-home:after, body header nav:after, body header nav ul:after, body header nav ul li ul.sub-nav-list:after, body section:after, body aside:after, .clearfix:before, body header div#header-container-home:before, body header nav:before, body header nav ul:before, body header nav ul li ul.sub-nav-list:before, body section:before, body aside:before {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.clearfix:after, body header div#header-container-home:after, body header nav:after, body header nav ul:after, body header nav ul li ul.sub-nav-list:after, body section:after, body aside:after {
+    clear: both;
+}
+
+body, header, div, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
+    display: block;
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/Roboto-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    font-family: 'Roboto';
+    font-size: 10px;
+    line-height: 25px;
+    color: #ccc;
+    text-align: center;
+    background: url('../images/home-bg.jpg') no-repeat;
+}
+
+#header-container-home {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 2em;
+    text-transform: uppercase;
+    width: 20em;
+    text-align: center;
+}
+
+#header-container-home h1 {
+    margin: 2em 0;
+}
+
+#header-container-home ul{
+    margin-right: 1em;
+}
+
+#header-container-home ul li {
+    background-color: rgba(0,0,0,0.3);
+    background-image: url('../images/home-arrow.png');
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    width: 70%;
+    text-align: left;
+    padding-left: 1.5em;
+    display: inline-block;
+    line-height: 3em; 
+    border: 3px solid #ccc;
+    margin-bottom: 2.8em;
+    cursor: pointer;
+    height: 3.9rem;
+}
+
+#header-container-home ul li a {
+    text-decoration: none;
+    color: #ccc;
+    height: 100%;
+}
+
+#header-container-home ul li:hover{
+    opacity: 0.7;
+}     
+
+#logo{
+    width: 5em;
+    border: none;
+}
