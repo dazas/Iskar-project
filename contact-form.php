@@ -6,7 +6,7 @@
 	
 	$sendTo = "";
 	$subject = "Message from Iskar";
-	$greeting = "New Website Email";
+	$greeting = "New Email";
 	
 	// *****************
 	// END USER SETTINGS
