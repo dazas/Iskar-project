@@ -4,7 +4,7 @@
 	// BEGIN USER SETTINGS
 	//********************
 	
-	$sendTo = "frontoffice@vanquish.bg";
+	$sendTo = "";
 	$subject = "Message from Iskar";
 	$greeting = "New Website Email";
 	
