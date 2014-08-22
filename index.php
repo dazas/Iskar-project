@@ -28,7 +28,7 @@ session_start();
             </h1>
             <ul>
                 <li>
-                    <a href="./en/">enter</a>
+                    <a href="./en/">English</a>
                 </li>
                 <li>
                     <a href="#">Nederlands</a>
