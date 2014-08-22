@@ -49,7 +49,7 @@ function my_header($title) {
                                     <a href="people.php">for the people</a>
                                 </li>
                                 <li class="camp-logo">
-                                    <a href="camp.php"><img id="logo" src="../images/shavari-camp-logo.png"/></a>
+                                    <a href="#"><img id="logo" src="../images/shavari-camp-logo.png"/></a>
                                 </li>
                                 <li>
                                     <a href="contacts.php">contact us</a>
